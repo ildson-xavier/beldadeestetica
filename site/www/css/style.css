@@ -1,0 +1,231 @@
+
+.affix{
+    top: 0;
+    width: 100%;
+    z-index: 20;
+}
+
+
+.logo {
+    padding-left: 80px !important;
+    padding-bottom: 40px !important;
+}  
+
+
+.navbar-right {
+    padding-right: 210px !important;
+    padding-top: 20px !important;
+}
+
+.titulo {
+    color: #EE4D67 !important;
+    font-family: 'GeosansLight-Oblique' !important;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.link-nivel {
+    color: #EE4D67;
+    font-family: 'GeosansLight-Oblique' !important;
+    font-weight: bold;
+	border: 1px #EE4D67 solid !important;
+	border-radius: 20px !important;
+	text-decoration: none !important;
+}
+
+.link-nivel a {
+    color: #EE4D67 !important;
+	text-decoration: none !important;
+}
+
+.link-nivel:hover {
+    color: #ffffff !important;
+    background-color: #EE4D67 !important;
+    border-color: #fd907a !important;
+	border-radius: 20px !important;
+	text-decoration: none !important;
+}
+
+.link-nivel a:hover {
+    color: #ffffff !important;
+	background-color: #EE4D67 !important;
+	text-decoration: none !important;
+}
+
+
+.titulo_contato {
+    color: #EE4D67 !important;
+    font-size: 20px !important;
+    font-weight: bold;
+    padding: 30px;
+    font-family: 'GeosansLight' !important;
+}
+
+.titulo-banner {
+    font-size: 52px !important;
+    color: #EE4D67 !important;
+    --opacity: 0.7;
+    --filter: alpha(opacity=70); /* For IE8 and earlier */
+    font-family: 'GeosansLight' !important;
+}
+
+.rounded-circle {
+    border-radius: 50% !important;
+  }
+
+.caixa {
+    padding: 20px !important;
+}
+
+.texto {
+    color: #969696 !important;
+    font-weight: 400 !important;
+    font-size: 20px;
+    font-family: 'GeosansLight' !important;
+}
+
+.texto-contato {
+    color: #e49b0f !important;
+    font-weight: 400 !important;
+    font-size: 18px;
+    font-family: 'GeosansLight' !important;
+}
+
+.texto-rodape {
+    font-family: 'GeosansLight' !important;
+    font-size: 18px;
+}
+
+.texto-branco {
+    color: #ffffff;
+    font-family: 'GeosansLight' !important;
+}
+
+.titulo-tratamento {
+    color: rgba(253, 144, 122, 0.88) !important;
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.titulo-tratamento2 {
+    color: #EE4D67 !important;
+    font-size: 28px !important;
+    font-weight: 600 !important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.citacao {
+    color: #616161 !important;
+    font-weight: 400 !important;
+    font-family: 'CaviarDreams_BoldItalic' !important;
+}
+
+.input-fundo {
+    background-color: rgba(240, 238, 238, 0.63);
+    border-radius: 20px !important;
+    color: #616161 !important;
+    border: 0px !important;
+    font-size: 16px !important;
+}
+
+.input-fundo-email {
+    background-color: #ffffff;
+    border-radius: 20px !important;
+    color: #616161 !important;
+    border: 2px solid #ffffff !important;
+    font-size: 16px !important;
+    width: 330px !important;
+}
+
+.espaco-superior {
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+.espaco-superior20 {
+    margin-top: 20px;
+
+}
+
+.espaco-inferior {
+    margin-bottom: 40px;
+}
+
+.espaco-inferior20 {
+    margin-bottom: 20px;
+}
+
+.padding-texto {
+    --padding-bottom: 100px !important;
+}
+
+.img-depoimento {
+    max-height: 90px;
+}
+
+.img-depoimento2 {
+    max-height: 230px;
+}
+
+.img-rounded{
+    border-radius: 3% !important;
+}
+
+.modal-estilo {
+    border: 2px solid #fd907a !important;
+    color: rgba(253, 144, 122, 0.88) !important;
+    background-color: rgba(240, 238, 238, 0.9);
+}
+
+.link-miracle-face {
+    border: 1px solid #EE4D67;
+    padding-bottom: 12px !important;
+    border-radius: 15px;
+}
+
+.link-miracle-face:hover {
+    border: 1px solid #EE4D67 !important;
+    background-color: #fff !important;
+    color: green !important;
+}
+
+.btn-whatsapp {
+    position: fixed;
+    bottom: 40%;
+    right: 7%;
+    z-index: 999;
+    background: #4dc247;
+    color: #FFF;
+    text-decoration: none;
+    width: 60px;
+    height: 60px;
+    font-size: 32px;
+    text-align: center;
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+
+.btn-whatsapp:hover {
+    background: #7ce577;
+    color: #FFF;
+}
+
+.img-skin {
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+}
+
+.img-skin:hover {
+    -webkit-transform:scale(2.55); /* Safari and Chrome */
+    -moz-transform:scale(2.55); /* Firefox */
+    -ms-transform:scale(2.55); /* IE 9 */
+    -o-transform:scale(2.55); /* Opera */
+     transform:scale(2.55);
+}
